@@ -5,5 +5,6 @@ python:
   - "3.5"
 install:
   - pip install -U pytest
+  - pip install -U numpy
 script: 
   - py.test

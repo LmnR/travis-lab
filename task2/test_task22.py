@@ -10,4 +10,4 @@ def test_div():
 def test_div_numpy():
     x = np.array([2])
     y = np.array([8])
-    assert np.divide(x, y) == 0.25
+    assert np.divide(x, y) == np.array([0.25])
